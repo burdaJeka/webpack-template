@@ -1,0 +1,20 @@
+body {
+  font-family: 'Montserrat';
+  background-color: $back;
+  color: $text;
+  user-select: none;
+}
+
+//46min . why Babel ?
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image {
+  width: 300px;
+  height: 500px;
+  background-size: cover;
+  background-image: url('../img/pic.jpg');
+}
